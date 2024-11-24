@@ -37,5 +37,11 @@ public class MemberController {
 		
 		return "WEB-INF/member/test";
 	}
+	
+	@RequestMapping(value="login.aws", method=RequestMethod.GET)
+	public String login() {
+		
+		return "WEB-INF/member/login";
+	}
 
 }
