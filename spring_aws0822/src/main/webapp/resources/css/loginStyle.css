@@ -58,6 +58,25 @@
 }
 
 
+/* 배너 로고 흰색으로 고정시키기 */
+.logo a {
+    color: white; /* 링크 글자 색상을 흰색으로 설정 */
+    text-decoration: none; /* 밑줄 제거 */
+}
+
+.logo a:visited {
+    color: white; /* 방문한 링크 색상을 흰색으로 설정 */
+}
+
+.logo a:hover {
+    color: white; /* 마우스를 올렸을 때 링크 색상을 흰색으로 설정 */
+}
+
+.logo a:active {
+    color: white; /* 클릭한 상태의 링크 색상을 흰색으로 설정 */
+}
+
+
 
 
 /* 전체 컨테이너 스타일 */
@@ -131,11 +150,6 @@
 .links a:hover {
     text-decoration: underline; /* 호버 시 밑줄 추가 */
 }
-
-
-
-
-
 
 
 

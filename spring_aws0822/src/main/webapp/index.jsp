@@ -8,7 +8,7 @@
 </head>
 <body>
 <a href="<%=request.getContextPath()%>member/memberJoin.aws">회원가입 페이지</a>
-<a href="<%=request.getContextPath()%>member/test.aws">메인페이지</a>
-<a href="<%=request.getContextPath()%>member/login.aws">로그인페이지</a>
+<a href="<%=request.getContextPath()%>member/main.aws">메인페이지</a>
+<a href="<%=request.getContextPath()%>board/boardContents.aws">글 내용</a>
 </body>
 </html>

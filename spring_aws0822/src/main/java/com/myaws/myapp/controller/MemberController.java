@@ -29,19 +29,11 @@ public class MemberController {
 	}
 	
 	
-	
-	
-	
-	@RequestMapping(value="test.aws", method=RequestMethod.GET)
-	public String test() {
+	@RequestMapping(value="main.aws", method=RequestMethod.GET)
+	public String main() {
 		
-		return "WEB-INF/member/test";
+		return "WEB-INF/member/main";
 	}
 	
-	@RequestMapping(value="login.aws", method=RequestMethod.GET)
-	public String login() {
-		
-		return "WEB-INF/member/login";
-	}
 
 }

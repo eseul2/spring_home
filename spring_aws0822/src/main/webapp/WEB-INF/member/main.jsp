@@ -4,7 +4,7 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>메인페이지</title>
-<link href= "<%=request.getContextPath()%>/resources/css/style3.css" type-"text/css" rel="stylesheet" >
+<link href= "<%=request.getContextPath()%>/resources/css/mainStyle.css" type-"text/css" rel="stylesheet" >
 </head>
 
 <script>
@@ -60,11 +60,11 @@ slides.forEach((slide, index) => {
 <!-- 네비게이션 바 -->
 	<nav class="navbar">
 		<ul>
-			<li><a href="/home">홈</a></li>
+			<li><a href ="<%=request.getContextPath()%>/member/main.aws">홈</a></li>
 			<li><a href="/find-bakery">빵집찾기</a></li>
 			<li><a href="/this-month-bread">이달의 빵</a></li>
-			<li><a href="/free-board">자유게시판</a></li>
-			<li><a href="/login">로그인</a></li>
+			<li><a href ="<%=request.getContextPath()%>/board/boardList.aws">자유게시판</a></li>
+			<li><a href="<%=request.getContextPath()%>/member/memberLogin.aws">로그인</a></li>
 		</ul>
 	</nav>
 <div class="separator"></div>
